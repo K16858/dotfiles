@@ -1,0 +1,8 @@
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    icon-theme: "Papirus";
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+@theme "~/.config/rofi/frappe.rasi"
