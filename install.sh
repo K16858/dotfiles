@@ -13,6 +13,10 @@ cp ~/.dotfiles/kitty/* ~/.config/kitty/
 cp ~/.dotfiles/waybar/* ~/.config/waybar/
 cp ~/.dotfiles/rofi/* ~/.config/rofi/
 
+# Wallpaper
+mkdir -p ~/wallpapers/favorite
+cp ~/.dotfiles/wallpapers/* ~/wallpapers/favorite/
+
 # GRUB theme
 sudo cp -r ~/.dotfiles/grub/catppuccin-frappe-grub-theme /usr/share/grub/themes/
 sudo grub-mkconfig -o /boot/grub/grub.cfg
